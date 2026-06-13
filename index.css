@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Source Sans 3", system-ui, sans-serif;
+  
+  --color-mousse-dark: #2a372d;
+  --color-mousse: #405144;
+  --color-mousse-medium: #5b7361;
+  --color-mousse-light: #ccd7ce;
+  --color-mousse-soft: #f2f5f3;
+  
+  --color-terre-dark: #5c4432;
+  --color-terre: #80624c;
+  --color-terre-light: #bfab9b;
+  --color-terre-soft: #f6f3f0;
+  
+  --color-creme-dark: #eae3d2;
+  --color-creme: #faf7f0;
+  --color-creme-light: #fdfcf9;
+  --color-creme-paper: #fcfaf5;
+}
+
+/* Custom journal page gridlines or notebook page aesthetic */
+.journal-paper {
+  background-color: var(--color-creme-paper);
+  background-image: radial-gradient(#d3cbbe 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Scrollbar styles to match the warm journal aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-creme);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-mousse-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-mousse-medium);
+}
+
