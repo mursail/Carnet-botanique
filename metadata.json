@@ -1,6 +1,1 @@
-{
-  "name": "Carnet de Terrain",
-  "description": "Application de révision en botanique et géodynamique avec carnet de terrain interactif, mode examen, révision active avec IA et persistance locale.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
+
